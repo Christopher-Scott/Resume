@@ -1,5 +1,5 @@
 /*color Palette
-#2B2D42 -dark blue
+#67618F -dark blue
 #8D99AE -light blue
 #EDF2F4 -almost white
 #EF233C	- light red
@@ -21,6 +21,7 @@ body {
 
 h1, h2{
 	font-family: 'Raleway', cursive;
+	/*text-rendering: optimizeLegibility;*/
 }
 
 h1{
@@ -29,7 +30,15 @@ h1{
 
 h2{
 	font-size: 2em;
+	letter-spacing: 1px;
 }
+h2.contact{
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: normal;
+}	
 a {
 	color:#EDF2F4;
 }
@@ -40,7 +49,7 @@ a:hover {
 }
 
 .content-wrap {
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 50px;
 	overflow: hidden;
@@ -73,6 +82,9 @@ header h1, header h2{
 	color: #EDF2F4;
 }
 
+.tagline {
+	font-size: 1.2em;
+}
 footer {
 	color: #8D99AE;
 	text-align: center;
@@ -87,8 +99,14 @@ footer {
 }
 
 
+/*.education {
+	background: #98A7D0;
+}*/
+
 .education {
-	background: #8D99AE
+	/*color: #FFF;*/
+	color: #EDF2F4;
+	background: #66708C; 
 }
 
 .skills li {
